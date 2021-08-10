@@ -12,7 +12,7 @@ public class TestCalc
     
     @Test
     void testSubtract() {
-        assertEquals(Calc.subtract(1, 2), 1);
+        assertEquals(Calc.subtract(2, 1), 1);
     }
     
 }
