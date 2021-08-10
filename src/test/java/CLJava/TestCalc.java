@@ -6,8 +6,13 @@ import static org.junit.jupiter.api.Assertions.*;
 public class TestCalc 
 {
     @Test
-    void add() {
+    void testAdd() {
         assertEquals(Calc.add(1, 2), 3);
+    }
+    
+    @Test
+    void testSubtract() {
+        assertEquals(Calc.subtract(1, 2), 1);
     }
     
 }
